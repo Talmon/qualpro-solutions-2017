@@ -1,0 +1,104 @@
+body,html{
+    height:100%;
+    margin:0;
+    font-size: 12px;
+    background-color: #f5ffe9;
+    /*background-image: url("../images/bg-5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+.bg{
+
+}
+#contacts {
+    float: right;
+    margin-top: -70px;
+    color: white;
+}
+#contacts h6 i{
+    margin-left:5px;
+}
+#logo {
+    height:70px;
+    color: #b6a338;
+    border-bottom: solid 1px #ccc;
+}
+.header{
+    background-image: url("../images/construction-site1.jpg");
+    position: relative;
+}
+#myCarousel{
+    height:100px;
+}
+.blog-masthead{
+    margin-bottom:20px;
+    background-color: #b6a338;
+}
+.blog-masthead a{
+    color:white;
+}
+.slideshow{
+    margin-left:200px;
+}
+.col-lg-4{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.card{
+    padding:15px;
+}
+.carousel-indicators{
+    bottom: -250px;
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 2em;
+    top:10em;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 2em;
+    top:10em;
+}
+.padding-0{
+    margin-left: -1em;
+    margin-top:10px;
+}
+button{
+    color: #b6a338;
+}
+footer a{
+    margin-left: 20px;
+}
+footer ul li{
+    margin-top: 70px;
+    font-size: larger;
+    margin-left: 150px;
+}
+.directors{
+    margin-bottom:30px;
+    background-color: #b6a338;
+    padding-top: 5px;
+}
+h3{
+    margin-left:450px;
+}
+.footer-social{
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+.social-icons{
+    height:100px;
+}
+.pagination .page-item{
+    background-color: #b6a338;
+}
+
+.nav-link:hover {
+    display: block;
+    background-color: #2a88bd;
+}
