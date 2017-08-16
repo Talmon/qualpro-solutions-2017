@@ -3,8 +3,8 @@
 
 <footer>
     <ul class="list-inline">
-        <a href="#"> <li class="list-inline-item">Company Information</li> </a>
-        <a href="#"> <li class="list-inline-item">Contact Us</li> </a>
+        <a href="about-us"> <li class="list-inline-item">Company Information</li> </a>
+        <a href="contacts"> <li class="list-inline-item">Contact Us</li> </a>
         <a href="#"> <li class="list-inline-item">Terms of Service</li> </a>
     </ul>
 

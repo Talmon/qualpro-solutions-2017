@@ -5,7 +5,7 @@
 
     <!-- Jumbotron -->
        <div class="row" style="padding: 0">
-       <div class="col-sm-8 ">
+       <div class="col-lg-8 ">
        <div class="container">
        <h2>Our Projects</h2>
 
@@ -79,7 +79,7 @@
 
        </div>
 
-           <div class="col-sm-3 offset-sm-1 blog-sidebar padding-0">
+           <div class="col-lg-3 offset-lg-1 blog-sidebar padding-0">
                <div class="sidebar-module sidebar-module-inset">
                    <h4>About</h4>
                    <p class="lead">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum.</p>
