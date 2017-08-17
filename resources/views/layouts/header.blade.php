@@ -17,13 +17,23 @@
 <div class="blog-masthead">
     <div class="container">
         <nav class="nav blog-nav">
-           <h5> <a class="nav-link" href="/">Home</a> </h5>
-            <h5> <a class="nav-link" href="/about-us">About Us</a>  </h5>
-            <h5> <a class="nav-link" href="/projects">Projects</a> </h5>
-            <h5> <a class="nav-link" href="/services">Services</a> </h5>
-           <h5> <a class="nav-link" href="/contacts">Contacts</a> </h5>
+           <h5> <a class="nav-link" href="/">Home <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a> </h5>
+            <h5> <a class="nav-link" href="/about-us">About Us <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>  </h5>
+            <h5> <a class="nav-link dropdown" href="/projects">Projects <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> </a></h5>
+            <h5 class="dropdown">
+            <a class="nav-link"  href="/services">Services <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+            </a>
+                {{--<ul class="dropdown-menu">
+                    <li><a href="#">Electrical</a></li>
+                    <li><a href="#">Engineering</a></li>
+                    <li><a href="#">Surveying</a></li>
+                    <li><a href="#">Construction</a></li>
+                </ul>--}}
+            </h5>
+           <h5> <a class="nav-link" href="/contacts">Contacts <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a> </h5>
         </nav>
     </div>
 </div>
 
 </div>
+

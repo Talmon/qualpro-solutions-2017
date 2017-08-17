@@ -44,7 +44,7 @@ body,html{
 .blog-masthead{
     margin-top: 0px;
     margin-bottom:50px;
-    background-color: #b6a338;
+    background-color: #c6a338;
 }
 .blog-masthead a{
     color:white;
@@ -94,6 +94,7 @@ footer ul li{
     margin-bottom:30px;
     background-color: #b6a338;
     padding-top: 5px;
+    border-right: solid 1px #cccccc;
 }
 h3{
     margin-left:450px;
@@ -116,6 +117,9 @@ h3{
     animation-duration: 2s;
     float:left;
 }
+.nav-link ul li{
+    display: none;
+}
 .col-lg-3{
     margin-top: 30px;
 }
@@ -134,4 +138,7 @@ h3{
 }
 @keyframes anime {
 
+}
+.col-lg-7 .lead{
+    margin-top: 15px;
 }
