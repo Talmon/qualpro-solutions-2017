@@ -29,6 +29,12 @@ body,html{
     background-image: url("../images/construction-site1.jpg");
     position: relative;
 }
+.nav-link{
+    border-right: 1px solid whitesmoke;
+    /*border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+    border-radius: 10px 10px 10px 10px;
+}
 #myCarousel{
 
 }
@@ -106,6 +112,9 @@ h3{
 .nav-link:hover {
     display: block;
     background-color: #2a88bd;
+    animation: anime;
+    animation-duration: 2s;
+    float:left;
 }
 .col-lg-3{
     margin-top: 30px;
@@ -122,4 +131,7 @@ h3{
 .caption a{
     color:white;
     text-decoration: none;
+}
+@keyframes anime {
+
 }

@@ -4,10 +4,13 @@
 @section('content')
 
     <!-- Container -->
+
        <div class="container-fluid">
+
        <div class="row">
        <div class="col-lg-9 col-sm-9 col-md-8 col-xs-8 ">
            <div class="jR3DCarouselGallery">
+
                <div class="mySlide">
                    <img src="/images/projects-1.jpg" alt="">
                    <div class="caption"><button class="btn-primary btn-group-lg"><a href="#">Project 1</a></button></div>
