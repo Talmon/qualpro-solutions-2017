@@ -3,13 +3,12 @@
 
 @section('content')
 
-    <!-- Jumbotron -->
-       <div class="row" style="padding: 0">
-       <div class="col-lg-8 ">
-       <div class="container">
+    <!-- Container -->
+       <div class="container-fluid">
+       <div class="row">
+       <div class="col-lg-8 col-sm-9 col-md-8 col-xs-8 ">
        <h2>Our Projects</h2>
-
-       <div id="myCarousel" class="carousel slide" data-ride="arousel">
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
            <!-- Indicators -->
            <ol class="carousel-indicators">
                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -76,10 +75,7 @@
        </div>
        </div>
 
-
-       </div>
-
-           <div class="col-lg-3 offset-lg-1 blog-sidebar padding-0">
+           <div class="col-lg-4 col-sm-3 col-md-4 col-xs-4  blog-sidebar">
                <div class="sidebar-module sidebar-module-inset">
                    <h4>About</h4>
                    <p class="lead">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -105,57 +101,66 @@
                    </ol>
                </div>
            </div><!-- /.blog-sidebar -->
+
+
+       </div>
        </div>
 
 
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-lg-4">
-        <div class="card">
-            <img src="../images/site-in-progress.jpg" height="250" width="300" alt="Card image cap">
-            <p class="card-text lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="card">
-                <img src="../images/kitchen-manenoz.jpg" height="250" width="300" alt="Card image cap">
-                <p class="card-text lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+    <!-- Our Services -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="../images/site-in-progress.jpg" height="250" width="300" alt="Card image cap">
+                    <p class="card-text lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="card">
-                <img src="../images/day-tractor.jpg" height="250" width="300" alt="Card image cap">
-                <p class="card-text lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="../images/kitchen-manenoz.jpg" height="250" width="300" alt="Card image cap">
+                    <p class="card-text lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="../images/day-tractor.jpg" height="250" width="300" alt="Card image cap">
+                    <p class="card-text lead">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+                </div>
             </div>
         </div>
     </div>
 
-    <h3>Our Directors</h3>
-    <div class="row directors">
 
-        <div class="col-lg-4 my-auto">
-            <img class="rounded-circle" src="../images/director-1.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Director 1 Name</h2>
-            <p class="lead">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="rounded-circle" src="../images/director-5.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Director 2 Name</h2>
-            <p class="lead">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="rounded-circle" src="../images/director-6.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Director 3 Name</h2>
-            <p class="lead">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+    <div class="container-fluid">
+        <h3>Our Directors</h3>
+        <div class="row directors">
 
-    </div><!-- /.row -->
+            <div class="col-lg-4 my-auto">
+                <img class="rounded-circle" src="../images/director-1.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Director 1 Name</h2>
+                <p class="lead">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="../images/director-5.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Director 2 Name</h2>
+                <p class="lead">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="../images/director-6.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Director 3 Name</h2>
+                <p class="lead">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
+        </div><!-- /.row -->
+    </div>
+
 
 
 @endsection
