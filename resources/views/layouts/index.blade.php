@@ -6,28 +6,41 @@
     <!-- Container -->
        <div class="container-fluid">
        <div class="row">
-       <div class="col-lg-8 col-sm-9 col-md-8 col-xs-8 ">
+       <div class="col-lg-9 col-sm-9 col-md-8 col-xs-8 ">
            <div class="jR3DCarouselGallery">
                <div class="mySlide">
                    <img src="/images/projects-1.jpg" alt="">
-               </div>
-               <div class="mySlide">
-                   <img src="/images/projects-2.jpg" alt="">
+                   <div class="caption"><button class="btn-primary btn-group-lg"><a href="#">Project 1</a></button></div>
                </div>
                <div class="mySlide">
                    <img src="/images/projects-3.jpg" alt="">
+                   <div class="caption"><button class="btn-primary btn-group-lg"><a href="#">Project 2</a></button></div>
+               </div>
+               <div class="mySlide">
+                   <img src="/images/projects-6.jpg" alt="">
+                   <div class="caption"><button class="btn-primary btn-group-lg"><a href="#">Project 3</a></button></div>
                </div>
                <div class="mySlide">
                    <img src="/images/projects-4.jpg" alt="">
+                   <div class="caption"><button class="btn-primary btn-group-lg"><a href="#">Project 4</a></button></div>
                </div>
                <div class="mySlide">
                    <img src="/images/projects-5.jpg" alt="">
+                   <div class="caption"><button class="btn-primary btn-group-lg"><a href="#">Project 5</a></button></div>
                </div>
                <script>
 
-                   var myjR3DCarousel = $('.jR3DCarouselGallery').jR3DCarousel({
-                       slideClass: 'mySlide',
-                   });
+                       var myjR3DCarousel = $('.jR3DCarouselGallery').jR3DCarousel({
+                           slideClass: 'mySlide',
+                           rotationDirection: 'rtl',
+                           controls: true,
+                           navigation: 'squares',
+                           animation: 'slide3D',
+                           animationInterval: 5000,
+                           width:700,
+                           height: 400,
+                       });
+
                </script>
            </div>
 
@@ -35,7 +48,7 @@
 
        </div>
 
-           <div class="col-lg-4 col-sm-3 col-md-4 col-xs-4  blog-sidebar">
+           <div class="col-lg-3 col-sm-3 col-md-4 col-xs-4  blog-sidebar">
                <div class="sidebar-module sidebar-module-inset">
                    <h4>About</h4>
                    <p class="lead">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum.</p>
