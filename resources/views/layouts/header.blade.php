@@ -1,24 +1,18 @@
-<div class="container-fluid black pullRightLeft">
+<nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #f44336">
+  <a href="/" class="navbar-brand "> <h1 class="display-4"> Qualpro Solutions  </h1> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation" >
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  topBottomBordersOut" id="navbarToggler">
+    <a href="/" class="nav-item nav-link">HOME</a>
+    <a href="/about-us" class="nav-item nav-link">ABOUT US</a>
+    <a href="/projects" class="nav-item nav-link">PROJECTS</a>
+    <a href="/services" class="nav-item nav-link">SERVICES</a>
+    <a href="/contacts" class="nav-item nav-link">CONTACT US</a>
 
-  <nav class="navbar navbar-fixed-top navbar-expand-lg ">
-    <h1 class="display-4" href="#">Qualpro Solutions</h1>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav nav-fill">
-        <a class="nav-item nav-link active" href="/">HOME <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="/about-us">ABOUT US</a>
-        <a class="nav-item nav-link" href="/projects">PROJECTS</a>
-        <a class="nav-item nav-link" href="/services">SERVICES</a>
-        <a class="nav-item nav-link" href="/contacts">CONTACT US</a>
-        <i class="fa fa-twitter-square fa-2x" style="color: #f44336; margin-left: 1em;"  aria-hidden="true"></i>
-        <i class="fa fa-facebook-square fa-2x" style="margin-left: 1em; color: #f44336" aria-hidden="true"></i>
-        <i class="fa fa-linkedin-square fa-2x"  style="margin-left: 1em; color: #f44336" aria-hidden="true"></i>
-        <i class="fa fa-instagram fa-2x" style="margin-left: 1em; color: #f44336" aria-hidden="true"></i>
-      </div>
-
-    </div>
-  </nav>
-
-</div>
+      <a href="#" class="social-media col-sm"> <i class="fa fa-linkedin-square fa-2x rounded-circle" aria-hidden="true"></i> </a>
+      <a href="#" class="social-media col-sm"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+      <a href="#" class="social-media col-sm"><i class="fa fa-twitter square fa-2x" aria-hidden="true"></i></a>
+      <a href="#" class="social-media col-sm"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+  </div>
+</nav>

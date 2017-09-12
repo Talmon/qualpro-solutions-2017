@@ -1,171 +1,133 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import url(https://fonts.googleapis.com/css?family=Tangerine|Marmelad|Artifika|Belleza|Maven+Pro);
 
 
-html, body
-{
-    margin: 0px;
-    background-color: #f44336;
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 5rem;
+    color: #FFFFFF;
 }
-h1{
+.navbar-brand{
+    font-family: Marmelad;
+    color: #000;
+}
+.navbar-brand:hover
+{
     color: #1a1a1a;
-
 }
-div.icons
-{
-    margin-left:12em;
-}
-.navbar-toggler-icon{
-    background-color: #1a1a1a;
-}
-div.container-fluid
-{
-    background-color: #f5f5f5;
-    font-family: Raleway;
-    text-align: center;
-
-}
-
 .nav-link
 {
-    color: #1a1a1a;
+    font-family: Marmelad;
+    font-size: 22px;
+    font-weight: 900;
+    color: #f5f8fa;
     text-decoration: none;
-    font: 22px Raleway;
-    margin: 0px 30px;
+    margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
     z-index: 0;
     cursor: pointer;
+;
 }
 .nav-link:hover
 {
     color: #1a1a1a;
 }
-.black
-{
-    background-color: #f44336;
-}
 
-/* Pull right and left  */
-div.pullRightLeft a:before, div.pullRightLeft a:after
+div.topBottomBordersOut .nav-link:before,div.topBottomBordersOut .nav-link:after
 {
     position: absolute;
-    width: 2px;
-    height: 100%;
-    top: 0px;
-    content: '';
-    background: #f44336;
-    opacity: 0.3;
+    left:0;
+    width:100%;
+    height: 2px;
+    background: #f5f8fa;
+    content: "";
+    opacity: 0;
     transition: all 0.3s;
 }
-
-div.pullRightLeft a:before
+div.topBottomBordersOut .nav-link:before
 {
-    left: 0px;
+    top:0px;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
 }
-
-div.pullRightLeft a:after
+div.topBottomBordersOut .nav-link:after
 {
-    right: 0px;
+    bottom: 0;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
-
-div.pullRightLeft a:hover:before, div.pullRightLeft a:hover:after
+div.topBottomBordersOut .nav-link:hover:before,
+div.topBottomBordersOut .nav-link:hover:after
 {
-    width: 100%;
+    color: #f5f8fa;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.social-media
+{
+margin-right: 1rem;
+    color: #000;
+}
+.social-media:hover
+{
+    color: #000;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 1rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+
 }
 
-
-
-.btn{
-    color: #FFFFFF;
-    text-transform: uppercase;
-    border-radius: 0;
-    padding-left: 60px;
-    position: relative;
-    transform: translateZ(0px);
-    transition: all 0.5s ease 0s;
-    margin-top: .3em;
-    height:100%;
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 35rem;
+    background-color: #777;
 }
-.btn:after{
-    content: "";
+.carousel-item > img {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
-    background: #1a1a1a;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: 100% 50% 0;
-    transition: all 0.5s ease-out 0s;
+    min-width: 100%;
+    height: 40rem;
 }
-.btn:hover:after{
-    transform: scaleX(1);
-    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-}
-.btn span{
-    width: 40px;
-    height: 100%;
-    line-height: 40px;
-    background: #1a1a1a;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all 0.3s linear 0s;
-}
-.btn span:after{
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    background: #1a1a1a;
-    margin: auto 0;
-    position: absolute;
-    top: 0;
-    right: -6px;
-    bottom: 0;
-    transform: rotate(45deg);
-    transition: all 0.3s linear 0s;
-}
-.btn.btn-sm{
-    padding-left: 40px;
-}
-.btn.btn-sm span{
-    width: 27px;
-    line-height: 27px;
-}
-.btn.btn-sm span:after{
-    width: 8px;
-    height: 8px;
-    right: -5px;
-}
-.btn.btn-xs{
-    padding-left: 30px;
-}
-.btn.btn-xs span{
-    width: 20px;
-    line-height: 20px;
-}
-.btn.btn-xs span:after{
-    width: 7px;
-    height: 7px;
-    right: -4px;
-}
-.btn.red{
-    border: 1px solid #fe6d6d;
-    background: #fe6d6d;
-}
-.btn.red:hover,
-.btn.red span{
-    color: #fe6d6d;
-}
-.btn.red:hover span,
-.btn.red:hover span:after{
-    background: #fe6d6d;
-}
-.btn:hover span{
+.jumbotron
+{
     color: #1a1a1a;
 }
-@media only screen and (max-width: 767px){
-    .btn{ margin-bottom: 20px; }
+h5
+{
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+.navbar-toggler
+{
+    background-color: #1a1a1a;
+    color: #000;
+}
+.navbar-toggler-icon
+{
+    background-color: #f5f8fa;
+}
+footer
+{
+    font-size: 22px;
 }
