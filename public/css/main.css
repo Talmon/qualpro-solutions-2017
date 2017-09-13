@@ -7,7 +7,7 @@
 
 body {
     padding-top: 5rem;
-    color: #FFFFFF;
+    color: #1a1a1a;
 }
 .navbar-brand{
     font-family: Marmelad;
@@ -130,4 +130,9 @@ h5
 footer
 {
     font-size: 22px;
+}
+.bg-image
+{
+    background-image: url("../images/interior-design3.jpg");
+    background-size: cover;
 }

@@ -2,40 +2,47 @@
 
 @section('content')
 
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="card">
-    <!-- Add Google Maps -->
-    <h1>Contact Us</h1>
-    <p class="lead">If you wish to contact us here are our service numbers:</p>
-    <ul class="list-group">
-        <li class="list-group-item-text"> +254725572984 </li>
-        <li class="list-group-item-text"> +254725XXXXXX </li>
-        <li class="list-group-item-text"> +254727XXXXXX </li>
-        <li class="list-group-item-text"> +2547233XXXXXX </li>
-    </ul>
 
-            </div>
+    <div class="card">
+        <img src="images/interior-design7.jpg" alt="" class="card-img w-100" style="height: 600px;">
+        <div class="card-img-overlay text-center text-white" style="font-family: Belleza; padding-top: 200px;">
+            <h3 class="display-3 card-title">Talk to us,why not?</h3>
+        </div>
+    </div>
+
+    <div class="row my-5 ">
+        <div class="col-sm text-danger text-center">
+            <h4 class=""><i class="fa fa-envelope fa-2x"> Email </i></h4>
+            <p class="lead text-dark"> <strong> info@qualprosolutions.co.ke </strong>  </p>
         </div>
 
-            <div class="col-lg-4">
+        <div class="col-sm text-danger text-center">
+            <h4 class=""><i class="fa fa-phone fa-2x"> Phone </i></h4>
+            <p class="lead text-dark"> <strong> +254 725 572 984 </strong> </p>
+        </div>
 
-    <h1>Where Are We?</h1>
-
-    <div id="map" style="width:600px;height:400px;background:yellow"></div>
+    </div>
+    <div id="map"  class="w-100" style="height:400px;"></div>
 
     <script>
-        function myMap() {
+        function initMap() {
+            var canopy = {lat: -1.210988, lng:36.893763};
+
             var mapCanvas = document.getElementById("map");
             var mapOptions = {
-                center: new google.maps.LatLng(-1.212611,36.895705), zoom: 10
+                center: canopy,
+                zoom: 10
             };
             var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position: canopy,
+                map: map
+            });
         }
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKUiXKJ87o-J_tmQyffbWHXbpkBQ2gLzA&callback=myMap"></script>
-
                 </div>
     </div>
+
+
 @endsection

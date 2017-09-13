@@ -92,15 +92,15 @@
 
 <hr>
 <div class="row">
-    <div class="col-sm-7 text-center border-right-1" style="color: #1a1a1a;">
+    <div class="col-sm text-center border-right-1" style="color: #1a1a1a;">
         <h1 class="display-5 text-danger">Why Choose Us?</h1>
-        <p class="lead mt-5 text-right">
+        <p class="lead mt-5 text-center">
             Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
             Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
         </p>
     </div>
-    <div class="col-sm-5 text-right">
-        <img class="w-50 mr-0 h-100" src="images/night-tractor.jpg" alt="">
+    <div class="col-sm text-center">
+        <img class="w-50 mr-0 h-100" src="images/why-choose-us.jpg" alt="">
     </div>
 </div>
 
@@ -109,14 +109,14 @@
 
 
 <div class="row">
-    <div class="col-sm-7 text-center order-2" style="color: #1a1a1a;">
+    <div class="col-sm text-center order-2" style="color: #1a1a1a;">
         <h1 class="display-5 text-danger">Our History</h1>
         <p class="lead mt-5">
             Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
             Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
         </p>
     </div>
-    <div class="col-sm-5">
+    <div class="col-sm text-center">
         <img class="w-50 mr-0 h-100" src="images/kitchen-manenoz.jpg" alt="">
     </div>
 </div>
@@ -124,15 +124,15 @@
 <hr>
 
 <div class="row">
-    <div class="col-sm-7 text-center" style="color: #1a1a1a;">
-        <h1 class="display-5 text-danger">Our Culture</h1>
+    <div class="col-sm text-center" style="color: #1a1a1a;">
+        <h1 class="display-5 text-danger">Our Clients</h1>
         <p class="lead mt-5 text-right">
             Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
             Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
         </p>
     </div>
-    <div class="col-sm-5 text-right">
-        <img class="w-50 mr-0 h-100" src="images/night-tractor.jpg" alt="">
+    <div class="col-sm text-center">
+        <img class="w-50 mr-0 h-100" src="http://www.huasingh.com/imageRepository/e024cb6c-f77e-4cb9-9297-1139a944b1b9.JPG" alt="">
     </div>
 </div>
 
