@@ -10,58 +10,63 @@
         <li data-target="#projectsCarousel" data-slide-to="3"></li>
         <li data-target="#projectsCarousel" data-slide-to="4"></li>
     </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active"  style="height: 620px;">
-            <img src="images/projects-1.jpg"  class="d-block w-100" alt="">
+<div class="carousel-inner">
+ <div class="carousel-item active bg-light"  style="height: 620px;">
+            <img src="images/projects-1.jpg"  class="d-block w-100  animated zoomIn" alt="">
             <div class="carousel-caption text-left">
-                <h1 class="display-4">Need a Buiding Contractor/Interior Designer?</h1>
-               <p><button class="btn btn-lg btn-danger">Call Now To Get Started</button></p>
-                <h3 class="display-5"> <a href="#" style="color: #f5f5f5;">click to view this project</a> </h3>
+                <h1 class="display-4 animated slideInRight">Need a Buiding Contractor/Interior Designer?</h1>
+               <p><button class="btn btn-lg btn-danger animated bounceInLeft">Call Now To Get Started</button></p>
+                <h3 class="display-5 animated rotateInDownRight"> <a href="#" style="color: #f5f5f5;">click to view our projects</a> </h3>
             </div>
         </div>
-        <div class="carousel-item" style="height: 620px;">
-            <img src="images/projects-3.jpg" class="d-block w-100" alt="">
+        <div class="carousel-item bg-light" style="height: 620px;">
+            <img src="images/projects-3.jpg" class="d-block w-100 animated zoomIn" alt="">
             <div class="carousel-caption text-right">
-                <h1 class="display-4">For Quality Building Contractors</h1>
-                <p><button class="btn btn-lg btn-danger">Call Now To Get Started</button></p>
-                <h3 class="display-5"> <a href="#" style="color: #f5f5f5;">click to view this project</a> </h3>
+                <h1 class="display-4 animated slideInLeft">For Quality Building Contractors</h1>
+                <p><button class="btn btn-lg btn-danger animated bounceInRight">Call Now To Get Started</button></p>
+                <h3 class="display-5 animated rotateInDownLeft"> <a href="#" style="color: #f5f5f5;">click to view our projects</a> </h3>
             </div>
         </div>
-        <div class="carousel-item" style="height: 620px;">
-            <img src="images/projects-4.jpg" class="d-block w-100" alt="">
+
+<div class="carousel-item bg-light" style="height: 620px;">
+            <img src="images/projects-4.jpg" class="d-block w-100 animated zoomIn" alt="">
             <div class="carousel-caption text-left">
-                <h1 class="display-4">For Creative Interior Design</h1>
-                <p><button class="btn btn-lg btn-danger">Call Now To Get Started</button></p>
-                <h3 class="display-5"> <a href="#" style="color: #f5f5f5;">click to view this project</a> </h3>
+                <h1 class="display-4 animated slideInRight">For Creative Interior Design</h1>
+                <p><button class="btn btn-lg btn-danger animated bounceInLeft">Call Now To Get Started</button></p>
+                <h3 class="display-5 animated rotateInDownRight"> <a href="#" style="color: #f5f5f5;">click to view our projects</a> </h3>
             </div>
         </div>
-        <div class="carousel-item" style="height: 620px;">
+        <div class="carousel-item bg-light" style="height: 620px;">
             <img src="images/projects-5.jpg" class="d-block w-100" alt="">
             <div class="carousel-caption text-right">
-                <h1 class="display-4">Building Contractor Needed?</h1>
-                <p><button class="btn btn-lg btn-danger">Call Now To Get Started</button></p>
-                <h3 class="display-5"> <a href="#" style="color: #f5f5f5;">click to view this project</a> </h3>
+                <h1 class="display-4 animated slideInLeft">Building Contractor Needed?</h1>
+                <p><button class="btn btn-lg btn-danger animated bounceInRight">Call Now To Get Started</button></p>
+                <h3 class="display-5 animated rotateInDownLeft"> <a href="#" style="color: #f5f5f5;">click to view our projects</a> </h3>
             </div>
         </div>
-        <div class="carousel-item" style="height: 620px;">
+        <div class="carousel-item bg-light" style="height: 620px;">
             <img src="images/projects-6.jpg" class="d-block w-100" alt="">
             <div class="carousel-caption text-left">
-                <h1 class="display-4">Interior Designer Needed?</h1>
-                <p><button class="btn btn-lg btn-danger">Call Now To Get Started</button></p>
-                <h3 class="display-5"> <a href="#" style="color: #f5f5f5;">click to view this project</a> </h3>
+                <h1 class="display-4 animated slideInRight">Interior Designer Needed?</h1>
+                <p><button class="btn btn-lg btn-danger animated bounceInLeft">Call Now To Get Started</button></p>
+                <h3 class="display-5 animated rotateInDownRight"> <a href="#" style="color: #f5f5f5;">click to view our projects</a> </h3>
             </div>
         </div>
+
     </div>
+
+<a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+
+
+<a class="carousel-control-next" href="#projectsCarousel"  role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
+
 </div>
-
-<a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev"></a>
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="sr-only">Previous</span>
-
-<a href="#projectsCarousel" class="carousel-control-next" role="button" data-slide="next"></a>
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="sr-only">Next</span>
-
 
 <hr class="my-1 bg-danger" style="width: 200px; height:5px;">
 <h1 class="display-5 text-center" style="color:#1a1a1a;font-family: Artifika;">CORE SERVICES</h1>
@@ -167,5 +172,6 @@
         </div>
     </div>
 </div>
+
 
 @endsection
