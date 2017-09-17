@@ -3,26 +3,26 @@
 @section('content')
 
 
-    <div class="card">
+    <div class="card" data-aos="slide-down">
         <img src="images/interior-design7.jpg" alt="" class="card-img w-100" style="height: 600px;">
         <div class="card-img-overlay text-center text-white" style="font-family: Belleza; padding-top: 200px;">
             <h3 class="display-3 card-title">Talk to us,why not?</h3>
         </div>
     </div>
 
-    <div class="row my-5 ">
+    <div class="row my-5 " data-aos="zoom-in">
         <div class="col-sm text-danger text-center">
             <h4 class=""><i class="fa fa-envelope fa-2x"> Email </i></h4>
             <p class="lead text-dark"> <strong> info@qualprosolutions.co.ke </strong>  </p>
         </div>
 
-        <div class="col-sm text-danger text-center">
+        <div class="col-sm text-danger text-center" data-aos="zoom-in">
             <h4 class=""><i class="fa fa-phone fa-2x"> Phone </i></h4>
             <p class="lead text-dark"> <strong> +254 725 572 984 </strong> </p>
         </div>
 
     </div>
-    <div id="map"  class="w-100" style="height:400px;"></div>
+    <div id="map"  class="w-100" style="height:400px;" data-aos="slide-up"></div>
 
     <script>
         function initMap() {

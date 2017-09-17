@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #f44336">
+<nav class="navbar navbar-expand-lg w-100 fixed-top" style="background-color: #f44336">
   <a href="/" class="navbar-brand "> <h1 class="display-4"> Qualpro Solutions  </h1> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation" >
   <span class="navbar-toggler-icon"></span>
